@@ -3,7 +3,14 @@ Scripts to add lr-mame with usb_dvg functionality to the default RetroPie distro
 
 ## Instructions
 
-First install source of original lr-mame to ensure ancilliary files are correctly installed.
+First install source of libretro's lr-mame to ensure ancilliary files are correctly installed.
+
+From home dir:
+```
+sudo chmod +x /home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-mame.sh
+sudo /home/pi/RetroPie-Setup/./retropie_packages.sh lr-mame install_bin 
+```
+
 
 Then execute the script for your pi:
 
