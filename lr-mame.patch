@@ -1,13 +1,10 @@
-diff --git a/scriptmodules/libretrocores/lr-mame.sh b/scriptmodules/libretrocores/lr-mame.sh
-index 006ceee8..4b2c01d9 100644
---- a/scriptmodules/libretrocores/lr-mame.sh
-+++ b/scriptmodules/libretrocores/lr-mame.sh
-@@ -13,7 +13,7 @@ rp_module_id="lr-mame"
+--- /home/pi/RetroPie-Setup/scriptmodules/libretrocores/lr-mame.sh      2022-03-13 22:26:13.683771018 +0000
++++ lrmame2.sh  2022-05-20 11:50:59.036782198 +0100
+@@ -13,7 +13,7 @@
  rp_module_desc="MAME emulator - MAME (current) port for libretro"
  rp_module_help="ROM Extension: .zip\n\nCopy your MAME roms to either $romdir/mame-libretro or\n$romdir/arcade"
  rp_module_licence="GPL2 https://raw.githubusercontent.com/libretro/mame/master/COPYING"
-+rp_module_repo="https://github.com/claydonkey/mame-libretro.git master"
--rp_module_repo="https://github.com/libretro/mame-libretro.git master"
+-rp_module_repo="git https://github.com/libretro/mame.git master"
++rp_module_repo="git https://github.com/claydonkey/mame-libretro.git master"
  rp_module_section="exp"
  rp_module_flags=""
- 
